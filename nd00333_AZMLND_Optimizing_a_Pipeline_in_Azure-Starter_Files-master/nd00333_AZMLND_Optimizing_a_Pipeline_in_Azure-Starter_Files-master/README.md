@@ -36,10 +36,12 @@ The Scikit learns Logistic Regression algorithm combined with HyperDrive was use
 
 ## AutoML
 AutoML used the given dataset to train various algorithms for classification, regression, and time-series forecasting tasks. Exit criteria are defined to halt training once objectives are achieved, preventing unnecessary resource consumption and cost. Due to the limited time of virtual machine the experiment were capped at 30 minutes. However we managed to iterate through various model pipelines (shown below with results):
+![AUTOML_1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/9e081338-09e1-404f-92d5-fe96cb242a21)
 
 
 
-The accuracy of all the models remains between 0.80 to 0.92. The best algorithm which was saved at the end was VotingEnsemble with an accuracy of 0.91821. A constant learning rate with disabled DeepLearning was used for the Regression problem.
+The accuracy of all the models remains between 0.80 to 0.92. The best algorithm which was saved at the end was VotingEnsemble with an accuracy of 0.91821. A constant learning rate with disabled DeepLearning was used for the Regression problem. The comprehensive details of the run are shown below:
+![AUTOML_2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/f118c2a3-4c63-4cfc-a4a6-d0fbc6fb8c6a)
 
 ## Pipeline comparison
 The AutoML model achieved slightly higher accuracy than HyperDrive Model. The AutoML's model VotingEnsemble was at accuracy 0.91803 while the HyperDrive Model accuracy was 0.9088012 with the run id of HD_bb9c00e8-54f8-4fd5-85ef-ed981768e4ac_14. The AutoML model, which had access to a wide range of approximately 30 models, outperformed the HyperDrive model that was restricted to Logistic Regression from Sci-KitLearn. indicating the advantage of having a larger selection of models during the experiment.
