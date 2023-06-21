@@ -10,10 +10,19 @@
   - Enabling logging and Application Insights
   - Consuming Model Endpoints using Swagger UI
   - Interact with Model Endpoints
-- 
-- Screen Cast
+- Create and Publish a pipeline using Azure Python SDK using Jupyter Notebook
+  - Create Pipeline and AutoMLStep
+  - Pipeline Run
+  - Run Widget
+  - PipelineRun Execution Summary
+  - Examine Results
+  - Best Model Retrive
+  - Test Best Model
+- Screen Recording
 - Future Works
-- References
+
+
+### Rest Endpoint
 
 ## Overview
 The project aims to achieve the following objectives through two different scenarios for creating and deploying ML production models, followed by consumption using Azure ML Studio and Azure Python SDK:
@@ -80,10 +89,6 @@ The execution of the pipeline from Jupyter Notebook
 The submitted pipeline is on the AZURE ML portal.
 ![PipelineRun2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/649f1df2-bd0e-4eb2-bfb0-d8b302feab15)
 
-### Test Best Model
-
-
-
 ### Run Widget
 ![widget](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/c826ac4b-4bc8-414e-bfcc-6715be9214e3)
 ![widget1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/4646bb36-b3e6-493b-b4e6-52825c582a78)
@@ -113,13 +118,8 @@ These screenshots collectively depict the process of creating, publishing and co
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
 
 
-## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
-
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+The screen recording can be accessed here, and it showcases the project in action. Two video files are uploaded first one is for the AutoML part, and the second is for Azure Python SDK.
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+In future developments, it would be beneficial to expand testing methodologies for local container and downloaded models, optimize the parallel run step in the pipeline by fine-tuning resource allocation and workload distribution, enhance pipeline automation with version control, and explore advanced performance measurement techniques beyond the Apache Benchmark tool. These efforts will contribute to improved functionality, efficiency, and scalability of the solution.
