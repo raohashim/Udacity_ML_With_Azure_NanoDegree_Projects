@@ -81,6 +81,7 @@ The objective of this step was to create, publish, and consume a pipeline using 
 ### Create Pipeline and AutoMLStep
 
 ![automlstep](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/0619a1d3-8e31-46bd-ab45-7f444196adbc)
+![pipeline developed](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/127951a2-234e-4f69-a2fd-7dbc469179e5)
 
 ### Pipeline Run
 The execution of the pipeline from Jupyter Notebook
