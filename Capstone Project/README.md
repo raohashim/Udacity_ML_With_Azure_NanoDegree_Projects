@@ -1,4 +1,4 @@
-# Operationalizing-ML-using-Microsoft-Azure
+# Predicting Survival with Heart Failure Clinical Record Dataset Using Machine Learning on Microsoft Azure
 ## Table of Content
 - Overview
 - Architecture Representation
