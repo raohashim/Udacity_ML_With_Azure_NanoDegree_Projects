@@ -90,6 +90,7 @@ The execution of the pipeline from Jupyter Notebook
 The submitted pipeline is on the AZURE ML portal.
 ![PipelineRun2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/649f1df2-bd0e-4eb2-bfb0-d8b302feab15)
 
+![Screenshot 2023-06-21 130047](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/7352df5c-4394-4c96-92e8-e8aea1e99684)
 ### Run Widget
 ![widget](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/c826ac4b-4bc8-414e-bfcc-6715be9214e3)
 ![widget1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/4646bb36-b3e6-493b-b4e6-52825c582a78)
@@ -107,7 +108,12 @@ The submitted pipeline is on the AZURE ML portal.
 ![test_best_model](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/85bb7b6e-8edd-41df-b19b-2be2c296dd8f)
 
 ### Rest Endpoint
-![Rest_API](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/2332994c-9835-4ae3-9436-bc772c121af6)
+![reset1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/16f5d7ac-d199-4f39-b073-6f06ce6e5202)
+![stateactive](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/f651121b-59a5-430f-8e0b-85f217aaff78)
+
+![reset3](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/71d1031c-d650-461b-b9de-e28ab3c3b246)
+![reset2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/9682b129-f1cf-40b7-b3ca-1c0a2f0988b9)
+![Screenshot 2023-06-21 125048](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/113816a9-23bc-4a7c-b4af-b0baa3e63536)
 
 
 These screenshots collectively depict the process of creating, publishing and consuming the pipeline using the Azure Python SDK within the Jupyter Notebook environment.
