@@ -4,9 +4,13 @@
 - Architecture Representation
 - Dataset Registration
 - AUTOML
-- Deploying the best model using ACI
-- Interact with Deployed Model and Consume Model Endpoints using Swagger UI
-- Azure Pipeline Creation and Publishing with Python SDK in Jupyter Notebook
+  - Completion of AUTOML Run
+  - Selection of Best Model
+  - Best Model Deployment
+  - Enabling logging and Application Insights
+  - Consuming Model Endpoints using Swagger UI
+  - Interact with Model Endpoints
+- 
 - Screen Cast
 - Future Works
 - References
