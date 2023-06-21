@@ -112,7 +112,7 @@ The submitted pipeline is on the AZURE ML portal.
 These screenshots collectively depict the process of creating, publishing and consuming the pipeline using the Azure Python SDK within the Jupyter Notebook environment.
 
 ## Screen Recording
-The screen recording can be accessed ![here](https://drive.google.com/drive/folders/1zN1b-_gKMj3KY_dVjGZU8wH3zfZrqgT4?usp=sharing), and it showcases the project in action. Two video files are uploaded first one is for the AutoML part, and the second is for Azure Python SDK.
+There are two screen recordings showcasing the project in action. Two video files are uploaded !(first one)[https://drive.google.com/file/d/1Pljy-lahRfYybU3IVOZC3iTnC1Gbt1hw/view?usp=sharing] is for the AutoML part, and the second is for Azure Python SDK.
 
 ## Standout Suggestions
 In future developments, it would be beneficial to expand testing methodologies for local container and downloaded models, optimize the parallel run step in the pipeline by fine-tuning resource allocation and workload distribution, enhance pipeline automation with version control, and explore advanced performance measurement techniques beyond the Apache Benchmark tool. These efforts will contribute to improved functionality, efficiency, and scalability of the solution.
