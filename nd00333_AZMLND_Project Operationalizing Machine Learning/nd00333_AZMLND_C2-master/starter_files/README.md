@@ -19,7 +19,7 @@
   - Best Model Retrive
   - Test Best Model
 - Screen Recording
-- Future Works
+- Standout Suggestions
 
 
 ### Rest Endpoint
@@ -119,7 +119,7 @@ These screenshots collectively depict the process of creating, publishing and co
 
 
 ## Screen Recording
-The screen recording can be accessed here, and it showcases the project in action. Two video files are uploaded first one is for the AutoML part, and the second is for Azure Python SDK.
+The screen recording can be accessed ![here](), and it showcases the project in action. Two video files are uploaded first one is for the AutoML part, and the second is for Azure Python SDK.
 
 ## Standout Suggestions
 In future developments, it would be beneficial to expand testing methodologies for local container and downloaded models, optimize the parallel run step in the pipeline by fine-tuning resource allocation and workload distribution, enhance pipeline automation with version control, and explore advanced performance measurement techniques beyond the Apache Benchmark tool. These efforts will contribute to improved functionality, efficiency, and scalability of the solution.
