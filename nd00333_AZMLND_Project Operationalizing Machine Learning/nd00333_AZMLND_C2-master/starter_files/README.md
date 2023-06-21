@@ -3,7 +3,7 @@
 - Overview
 - Architecture Representation
 - Dataset Registration
-- AUTOML
+- AUTOML Experiment
   - Completion of AUTOML Run
   - Selection of Best Model
   - Best Model Deployment
@@ -39,7 +39,7 @@ The  architecture diagram showing the flow of the whole project is shown below:
 The project utilizes a marketing dataset of a banking institution derived from direct marketing campaigns conducted via phone calls. The objective of the classification task in this project is to predict whether a client will subscribe to a bank term deposit. The dataset has been successfully uploaded to Azure ML Studio, as depicted in the accompanying screenshot. 
 ![Data](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/bddded58-dfda-446f-aeab-666907ad6d86)
 
-## AUTOML
+## AUTOML Experiment
 ### Completion of AUTOML Run
 After registering the dataset, the subsequent step involved creating a compute cluster and running the AutoML experiment. The experiment's completion status is illustrated below in the provided screenshot.
 ![AOTOML COMPLETE](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/83ff5922-074d-48c1-8a64-07ecf6724051)
@@ -64,8 +64,28 @@ Once the model is successfully deployed, the Python script endpoint.py can be ut
 
 ![consumeoutput_AUTOML](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/94433644-ce58-4ba5-acb8-2ed24f9da1cf)
 
-## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+## Create and Publish a pipeline using Azure Python SDK using Jupyter Notebook
+In the second part of the project, the Jupyter Notebook aml-pipelines-with-automated-machine-learning-step.ipynb was utilized. This notebook has been updated to include the same dataset, keys, URI, cluster, and model names that were created in the first part using AutoML.
+
+The objective of this step was to create, publish, and consume a pipeline using the Azure Python SDK. The relevant screenshots below demonstrate the progress and outcomes of this step, showcasing the successful creation and execution of the pipeline. The screenshots provide an overview of the pipeline's structure, including the different steps involved, as well as the pipeline run logs and results obtained during the execution.
+### Pipeline Run
+The execution of the pipeline from Jupyter Notebook
+![PipelineRun1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/60c6b266-8066-4abc-bac8-15efff634c0f)
+
+The submitted pipeline is on the AZURE ML portal.
+![PipelineRun2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/649f1df2-bd0e-4eb2-bfb0-d8b302feab15)
+
+
+
+
+### Run Widget
+
+### Status Active
+
+### Rest Endpoint
+
+
+These screenshots collectively depict the process of creating, publishing, and consuming the pipeline using the Azure Python SDK within the Jupyter Notebook environment.
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
