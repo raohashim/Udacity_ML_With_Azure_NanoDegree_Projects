@@ -69,6 +69,9 @@ Once the model is successfully deployed, the Python script endpoint.py can be ut
 In the second part of the project, the Jupyter Notebook aml-pipelines-with-automated-machine-learning-step.ipynb was utilized. This notebook has been updated to include the same dataset, keys, URI, cluster, and model names that were created in the first part using AutoML.
 
 The objective of this step was to create, publish, and consume a pipeline using the Azure Python SDK. The relevant screenshots below demonstrate the progress and outcomes of this step, showcasing the successful creation and execution of the pipeline. The screenshots provide an overview of the pipeline's structure, including the different steps involved, as well as the pipeline run logs and results obtained during the execution.
+### Create Pipeline and AutoMLStep
+
+![automlstep](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/0619a1d3-8e31-46bd-ab45-7f444196adbc)
 
 ### Pipeline Run
 The execution of the pipeline from Jupyter Notebook
@@ -77,17 +80,31 @@ The execution of the pipeline from Jupyter Notebook
 The submitted pipeline is on the AZURE ML portal.
 ![PipelineRun2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/649f1df2-bd0e-4eb2-bfb0-d8b302feab15)
 
+### Test Best Model
 
 
 
 ### Run Widget
+![widget](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/c826ac4b-4bc8-414e-bfcc-6715be9214e3)
+![widget1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/4646bb36-b3e6-493b-b4e6-52825c582a78)
 
-### Status Active
+### PipelineRun Execution Summary
+![run complete](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/80141a81-3828-447b-bff0-4f7163f994f5)
+
+### Examine Results
+![results_examin](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/25b682ef-6240-41fb-9262-e7f5dd904501)
+
+### Best Model Retrive
+![best_model](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/1598328b-2e89-4360-8de8-2512222e58f7)
+
+### Test Best Model
+![test_best_model](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/85bb7b6e-8edd-41df-b19b-2be2c296dd8f)
 
 ### Rest Endpoint
+![Rest_API](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/2332994c-9835-4ae3-9436-bc772c121af6)
 
 
-These screenshots collectively depict the process of creating, publishing, and consuming the pipeline using the Azure Python SDK within the Jupyter Notebook environment.
+These screenshots collectively depict the process of creating, publishing and consuming the pipeline using the Azure Python SDK within the Jupyter Notebook environment.
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
