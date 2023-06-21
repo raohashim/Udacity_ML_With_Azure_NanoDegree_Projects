@@ -109,10 +109,9 @@ The submitted pipeline is on the AZURE ML portal.
 
 ### Rest Endpoint
 ![reset1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/16f5d7ac-d199-4f39-b073-6f06ce6e5202)
-![stateactive](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/f651121b-59a5-430f-8e0b-85f217aaff78)
-
 ![reset3](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/71d1031c-d650-461b-b9de-e28ab3c3b246)
 ![reset2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/9682b129-f1cf-40b7-b3ca-1c0a2f0988b9)
+![stateactive](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/f651121b-59a5-430f-8e0b-85f217aaff78)
 ![Screenshot 2023-06-21 125048](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/113816a9-23bc-4a7c-b4af-b0baa3e63536)
 
 
