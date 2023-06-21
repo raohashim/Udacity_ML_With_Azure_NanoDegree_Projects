@@ -57,6 +57,7 @@ Azure provides a Swagger JSON URL that can be utilized to generate a web page do
 
 ### Interact with Model Endpoints 
 Once the model is successfully deployed, the Python script endpoint.py can be utilized to interact with the trained model and obtain output predictions. This script acts as a client that communicates with the deployed model's endpoint, sending input data and receiving the corresponding predictions as output.
+
 ![consumeoutput_AUTOML](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/94433644-ce58-4ba5-acb8-2ed24f9da1cf)
 
 ## Key Steps
