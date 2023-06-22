@@ -112,7 +112,7 @@ The ACI Webservice Class represents the model deployed as a web service endpoint
 ![dp_az_job3](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/48b53517-defd-48a8-81df-30afa7f6893c)
 
 ## Screen Recordings
-The two screen recordings can be found at these links  Video1 (https://drive.google.com/file/d/1kqLVKRZSj491sO1gGRJUiqra7T4L4d-K/view?usp=sharing) and Video2 (https://drive.google.com/file/d/1pKTniCoaO_Wwj1Lz5NpkfAEh9BCPpnBr/view?usp=sharing). The first screen recording demonstrates the complete project. In the second, only a small correction regarding endpoints is made.
+The two screen recordings can be found at these links  Video1 (https://drive.google.com/file/d/1vx7djofCrgI0caBhzqe0ea5-cmVtQGHH/view?usp=sharing) and Video2 (https://drive.google.com/file/d/1pKTniCoaO_Wwj1Lz5NpkfAEh9BCPpnBr/view?usp=sharing). The first screen recording demonstrates the complete project. In the second, only a small correction regarding endpoints is made.
 
 ## Suggestions
 
