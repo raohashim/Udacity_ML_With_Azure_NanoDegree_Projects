@@ -95,10 +95,29 @@ Max Iterations (max_iter): 50
 The saving and downloading of the best model as .pkl.
 ![bm_nb_job2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/861d8314-8713-4d48-a052-dd79efe84666)
 
+## Best Model Deployment
+From the above runs, it can be seen that we get the best model from the AUTOML run using the accuracy metric. It shows an accuracy of 0.85 per cent, while the HyperDrive shows 0.83. So to deploy the AutoMl model, the following steps will be followed:
+- Inference configuration: The inference configuration consists of two entities that determine the environment in which the deployed model runs. These entities are utilized during the deployment process to execute the model.
+- Entry script: The scoring.py file serves as the entry script for the deployed service. It fulfils two key responsibilities: loading the model upon service initiation and handling the process of receiving data, forwarding it to the model for processing, and returning a response.
+- Choosing a compute target: Azure Container Instances (ACI) is chosen as the compute target for deploying the model. ACI is ideal for low-scale CPU-based workloads with RAM requirements below 48 GB.
+The ACI Webservice Class represents the model deployed as a web service endpoint on Azure Container Instances. It creates a load-balanced HTTP endpoint with a REST API. We can send data to this API and receive predictions from the model.
+- Deployment of the model: After going through the above steps, the deployment process is initiated. It may take some time to complete, but upon successful completion, the ACI web service will display a Healthy status, indicating that the model has been deployed successfully. 
+- Testing the resulting web service: To consume the endpoints after deploying the model, a Python file named "endpoint.py" was used. The key and scoring URI was provided in the script. By running the endpoint.py file with the corresponding data file in the designated folder, POST and GET requests were sent to the model's endpoint.
 
+![dp_nb_job1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/c6b9f740-722b-4a6a-b1cd-8b6e7f46b312)
+![dp_nb_job2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/3ec6a4b2-8e65-4c9e-94bc-924b46d663f5)
+![dp_az_job1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/8f50c535-42ba-463b-8d83-a4a59c97be98)
+![dp_az_job2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/dba027cf-81e1-4cd9-a774-3f4e536a2912)
+![dp_az_job3](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/48b53517-defd-48a8-81df-30afa7f6893c)
 
+## Screen Recordings
+The two screen recordings can be found at these links  Video1 () and Video2(). The first screen recording demonstrates the complete project. In the second, only a small correction regarding endpoints is made.
 
+## Suggestions
 
+- Consider employing a different primary metric for evaluation, such as precision, recall, F1 score, or area under the receiver operating characteristic curve (AUC-ROC), to assess the performance of the deployed service.
+- Use large datasets during testing to ensure that the model's performance is reliable and can handle a wide range of data samples, providing a more accurate representation of real-world scenarios.
+- Take advantage of the Swagger URI of the deployed service and utilize the Swagger UI. This allows for easy interaction with the model's endpoints, making it convenient to test and validate the service's functionality and response.
 
 
 
