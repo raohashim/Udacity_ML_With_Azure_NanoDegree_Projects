@@ -78,8 +78,22 @@ The BanditPolicy was employed as the termination policy. It terminates any run t
 Finally, the HyperDriveConfig was created by specifying the estimator, hyperparameter_sampling, termination policy, primary_metric_name, max_total_runs, and other relevant configurations, as depicted in the provided image.
 
 ![nb_job1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/d86dcd50-5d53-468c-a561-a7a37a30a1cd)
+![nb_job2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/8d40ea4b-b66f-49a9-a36a-0eb3c24e9cfe)
+![nb_job3](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/2c6a6a8a-23a8-4342-a0de-ee816de23fa7)
+Screenshots from Azure ML studio:
+![az_job1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/825f9bad-4f8d-4e84-95ae-241d38fbe534)
+![az_job2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/d20077b7-1acf-49ac-8388-46b2f7b98e8a)
 
-### Results
+### Best Model
+The Logistic Regression model with the Run Id:  HD_fb76fc18-6db7-4529-8d27-692fc33c0c19_2 achieved the best accuracy of 0.83333. The corresponding hyperparameters that resulted in this performance are:
+
+Regularization Strength (C): 100
+Max Iterations (max_iter): 50
+![bm_nb_job1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/4511ab3b-e81a-439d-be23-91188eeafb89)
+![bm_az_job1](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/0fd396e5-4c18-4ab6-ad5d-05f0e69011b3)
+
+The saving and downloading of the best model as .pkl.
+![bm_nb_job2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/861d8314-8713-4d48-a052-dd79efe84666)
 
 
 
@@ -87,7 +101,15 @@ Finally, the HyperDriveConfig was created by specifying the estimator, hyperpara
 
 
 
-Best Run Id:  HD_fb76fc18-6db7-4529-8d27-692fc33c0c19_2
+
+
+
+
+
+
+
+
+
 
 
 
