@@ -26,6 +26,7 @@ These features are used to train a model for predicting mortality caused by hear
 Upon downloading the dataset from Kaggle as a CSV file, the next step was to register it as a dataset in the Azure Workspace. This was achieved by uploading the file from the local storage and registering it in a tabular form. By performing these actions, the dataset was made accessible within the Azure Workspace for further analysis and model training.
 ![Screenshot 2023-06-22 032057](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/574a6a97-4835-4e8c-bff1-e9e18b4980ac)
 ![Screenshot 2023-06-22 032118](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/0c95bee0-a6e6-4d37-8907-3dbe07616a4e)
+
 ScreenShot from the Jupyter Notebook:
 ![Screenshot 2023-06-22 021536](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/d471d682-81c6-421d-a472-f704934df5ee)
 
