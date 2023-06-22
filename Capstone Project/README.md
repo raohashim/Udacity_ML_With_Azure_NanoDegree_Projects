@@ -48,7 +48,7 @@ Finally, the best model metrics, properties, and parameters were explored, and i
 ![bm_jn_job2](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/8918decb-c17f-4e12-9ad7-c59903600499)
 ![bm_jn_job3](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/8005e04d-b174-436a-8193-886f78e36002)
 ![bm_jn_job4](https://github.com/raohashim/Udacity_ML_With_Azure_NanoDegree_Projects/assets/50891264/0da167de-197f-4a12-8991-e9db14623af4)
-Here it can be seen that the best model was XGBoostClassifier has the run ID: and an accuracy of 0.856.
+Here it can be seen that the best model was XGBoostClassifier has the run ID: AutoML_553367df-b11b-469e-a776-b952dd82059e_21 and an accuracy of 0.856.
 
 
 Screenshots of the Complete AutoML run from AzureML studio:
@@ -64,7 +64,7 @@ Screenshots of the Best Model from the AzureML studio:
 
 
 
-
+Best Run Id:  HD_fb76fc18-6db7-4529-8d27-692fc33c0c19_2
 
 
 
