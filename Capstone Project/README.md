@@ -122,8 +122,8 @@ The two screen recordings can be found at these links  Video1 (https://youtu.be/
 
 
 
-
-
+## Reference
+Chicco, D., & Jurman, G. (2020). Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC medical informatics and decision making, 20(1), 1-16.
 
 
 
